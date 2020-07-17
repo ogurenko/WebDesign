@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.color {
+  display: block;
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.fonts {
+  display: block;
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.text {
+  display: block;
+  border: 1px solid;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.color_list li {
+  list-style: none;
+  display: inline-block;
+margin-right: 5px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+
+
+li.blue {
+  background-color: #2d5dcc;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+}
+
+li.pink {
+  background-color: #d957d9;
+  color: #000;
+  width: 300px;
+  height: 100px;
+}
+
+li.mint {
+  background-color: #4fe0b0;
+  color: #000;
+  width: 300px;
+  height: 100px;
+}
+
+li.beige {
+  background-color: #efd9ca;
+  color: #000;
+  width: 300px;
+  height: 100px;
+}
+
+.fonts h3 {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.fonts .ubuntu, .montserrat, .roboto  {
+  display: inline-block;
+  width: 400px;
+  margin: 10px 40px;
+}
+
+.fonts p {
+  width: 400px;
+  line-height: 1.2;
+}
+
+.ubuntu .regular {
+  font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+}
+
+.ubuntu .italic {
+  font-family: 'Ubuntu', sans-serif;
+font-style: italic;
+}
+
+.ubuntu .bold {
+  font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+}
+
+.montserrat .regular {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.montserrat .italic {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.montserrat .bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.roboto .regular {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.roboto .italic {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.roboto .bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
